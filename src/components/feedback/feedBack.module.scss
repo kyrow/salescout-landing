@@ -1,0 +1,48 @@
+.wrapper {
+	width: 100%;
+	padding: 40px 0;
+
+}
+
+.container {
+	@media (min-width:320px) {
+		width: 90%;
+	}
+
+	@media (min-width:720px) {
+		width: 80%;
+	}
+
+	@media (min-width:1200px) {
+		width: 1024px;
+	}
+
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.title {
+	margin-bottom: 50px;
+}
+
+.feedbackContainer {
+	display: grid;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+	@media (min-width:320px) {
+		grid-template-columns: 45% 45%;
+	}
+
+	@media (min-width:720px) {
+		grid-template-columns: 30% 30% 30%;
+	}
+
+	@media (min-width:1024px) {
+		grid-template-columns: 22% 22% 22% 22%;
+	}
+
+
+
+}

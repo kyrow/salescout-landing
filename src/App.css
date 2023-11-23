@@ -1,0 +1,39 @@
+@font-face {
+	font-family: 'TildaSans-Regular';
+	src: url('./fonts/TildaSans/TildaSans-Regular.ttf');
+}
+@font-face {
+	font-family: 'TildaSans-bold';
+	src: url('./fonts/TildaSans/TildaSans-Bold.ttf');
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden; 
+
+	font-family:TildaSans-Regular;
+}
+
+h1 {
+	font-size: 30px;
+	line-height: 28px;
+	text-align: center;
+	font-weight: 700;
+}
+
+h2 {
+	font-weight: 500;
+	line-height: 28px;
+	font-size: 20px;
+	text-align: center;
+}
+
+h3 {
+	margin:0;
+	font-size: 32px;
+	text-align: center;
+	font-weight: 600;
+}
